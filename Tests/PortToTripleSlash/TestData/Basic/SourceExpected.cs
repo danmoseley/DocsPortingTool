@@ -169,4 +169,21 @@ namespace MyNamespace
             return value1;
         }
     }
+
+    /// <summary>This is the <see cref="MyNamespace.MyTypeWithGeneric{T}" /> summary.</summary>
+    /// <typeparam name="T">This is the <typeparamref name="T" />'s description.</typeparam>
+    // Original MyTypeWithGeneric`1 class comments with information for maintainers, must stay.
+    public class MyTypeWithGeneric<T>
+    {
+        /// <summary>This is the <see cref="MyNamespace.MyTypeWithGeneric{T}.#ctor" /> constructor summary.</summary>
+        public MyTypeWithGeneric()
+        {
+        }
+
+        /// <summary>This is the <see cref="MyNamespace.MyTypeWithGeneric{T}.MyMethod" /> summary.</summary>
+        /// <returns>The return type <see cref="int" />.</returns>
+        public int MyMethod()
+        {
+        }
+    }
 }

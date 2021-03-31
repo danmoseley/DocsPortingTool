@@ -1,0 +1,45 @@
+﻿<Type Name="MyTypeWithGeneric&lt;T&gt;" FullName="MyNamespace.MyTypeWithGeneric&lt;T&gt;">
+  <TypeSignature Language="DocId" Value="T:MyNamespace.MyTypeWithGeneric`1" />
+  <AssemblyInfo>
+    <AssemblyName>MyAssembly</AssemblyName>
+  </AssemblyInfo>
+  <TypeParameters>
+    <TypeParameter Name="T" />
+  </TypeParameters>
+  <Docs>
+    <typeparam name="T">This is the <typeparamref name="T" />'s description.</typeparam>
+    <summary>This is the <see cref="T:MyNamespace.MyTypeWithGeneric`1" /> summary.</summary>
+    <remarks>To be added.</remarks>
+    <threadsafe>This class is thread-safe. All members may be used by multiple threads concurrently.</threadsafe>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="DocId" Value="M:MyNamespace.MyTypeWithGeneric`1.#ctor" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>MyAssembly</AssemblyName>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>This is the <see cref="M:MyNamespace.MyTypeWithGeneric`1.#ctor" /> constructor summary.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MyMethod">
+      <MemberSignature Language="DocId" Value="M:MyNamespace.MyTypeWithGeneric`1.MyMethod" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>MyAssembly</AssemblyName>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>This is the <see cref="M:MyNamespace.MyTypeWithGeneric`1.MyMethod" /> summary.</summary>
+        <returns>The return type <see cref="T:System.Int32" />.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+
+</Type>

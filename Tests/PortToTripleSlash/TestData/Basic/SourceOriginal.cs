@@ -86,4 +86,16 @@ namespace MyNamespace
             return value1;
         }
     }
+
+    // Original MyTypeWithGeneric`1 class comments with information for maintainers, must stay.
+    public class MyTypeWithGeneric<T>
+    {
+        public MyTypeWithGeneric()
+        {
+        }
+
+        public int MyMethod()
+        {
+        }
+    }
 }
